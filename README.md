@@ -1,7 +1,7 @@
 # The-Simon-Game
 
 🧠 Simon Game
-A web-based version of the classic Simon Memory Game, built using HTML, CSS, and JavaScript.
+A web-based version of the classic Simon Memory Game, built using HTML, CSS, and JavaScript with Jquery.
 
 🎮 How to Play
 The game shows you a sequence of colored button flashes (and sounds). Your job is to remember the pattern and repeat it by clicking the buttons in the correct order.
@@ -23,6 +23,6 @@ HTML5
 
 CSS3 (with custom styles and animations)
 
-JavaScript (vanilla)
+JavaScript (vanilla) with Jquery
 
 Google Fonts & Material Icons
