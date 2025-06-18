@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=replay" />
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <h1 id="level-title">Press A Key to Start</h1>
+  <div class="container">
+    <div lass="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+    
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+  <!-- Game Rules Popup -->
+<div id="rulesModal" class="modal">
+  <div class="modal-content">
+    <h2>Simon Game Rules</h2>
+    <p>🔹 Press any key to start the game.</p>
+    <p>🔹 Watch the sequence carefully.</p>
+    <p>🔹 Repeat the sequence by clicking the colored buttons.</p>
+    <p>🔹 Each round adds one more color to the sequence.</p>
+    <p>🔹 A wrong click ends the game. Try again!</p>
+    <button id="closeBtn">START!</button>
+  </div>
+</div>
+
+
+<div class="modall" style="display: none;"><button id="restartBtn"><span class="material-symbols-outlined">
+replay
+</span></button></div>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
